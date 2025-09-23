@@ -10,9 +10,9 @@ Voltage logger project using ESP32, FreeRTOS, I2C, SPI, SD CARD, INA219 and more
 - When the system is ON, the LED will be turned on, the timer starts, display will display `LOADING...`,
   and SPI will be reset if it's not the first time the system is on.
 - Potentiometer controls the voltage of the resistor through ADC and DAC.
-- Latest voltage readings will be shown on the display as an on going graph.
-- Data will be transffered via SPI to the SD card at bunches of 20.
-- In case of system OFF at the middle of data transffer to the SD card, data loss will occur.
+- Latest voltage readings will be shown on the display as an ongoing graph.
+- Data will be transferred via SPI to the SD card in batches of 20.
+- In case of system OFF in the middle of data transfer to the SD card, data loss will occur.
 - System starts with OFF status.
 
 ## Installation
