@@ -1,0 +1,11 @@
+{
+  "name": "INA219-IDF",
+  "version": "0.1.0",
+  "description": "INA219 driver for ESP-IDF 5+ using driver/i2c_master.h (bus/device API).",
+  "keywords": ["ina219", "current", "power", "i2c", "esp-idf"],
+  "repository": { "type": "git", "url": "https://github.com/GoldmanLiyam/ina219-idf-pio.git" },
+  "frameworks": "espidf",
+  "platforms": "espressif32",
+  "build": { "includeDir": "include", "srcDir": "src" },
+  "license": "MIT"
+}
