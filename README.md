@@ -18,7 +18,7 @@ Voltage logger project using ESP32, FreeRTOS, I2C, SPI, SD CARD, INA219 and more
 ## Demo
 
 ### 🎥 Video Demo
-[Oled Example(MP4)](assets/demo.mp4?raw=true)
+[▶️ Watch full OLED demo (MP4)](assets/demo.mp4?raw=true)
 
 ---
 
@@ -64,6 +64,7 @@ The system logs voltage readings to an SD card in CSV format.
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 Created by Liyam Goldman
+
 
 
 
