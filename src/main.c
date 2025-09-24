@@ -296,7 +296,7 @@ void btn_task(void* pvParameter) {
 
     while (1) {
         if (ulTaskNotifyTake(pdTRUE, portMAX_DELAY) > 0) {
-            if (gpio_get_level(BTN_PIN)==0) {                                           // Check if pressed
+            if (gpio_get_level(BTN_PIN) == 0) {                                         // Check if pressed
                 system_on = !system_on;
                 change_system_status(system_on, &first_intr_flag);
                 while (gpio_get_level(BTN_PIN) == LOW) vTaskDelay(pdMS_TO_TICKS(5));    // Wait while pressed
@@ -477,3 +477,4 @@ void spi_set() {
     };
     ESP_ERROR_CHECK(esp_vfs_fat_sdspi_mount(mount_path, &host_cfg, &slot_cfg, &mount_cfg, &sd_card));
 }
+
