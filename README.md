@@ -15,6 +15,24 @@ Voltage logger project using ESP32, FreeRTOS, I2C, SPI, SD CARD, INA219 and more
 - In case of system OFF in the middle of data transfer to the SD card, data loss will occur.
 - System starts with OFF status.
 
+## Demo
+
+### 🎥 Video Demo
+[Oled Example(MP4)](assets/demo.mp4?raw=true)
+
+---
+
+### 📸 Project Images
+<p align="center">
+  <img src="assets/img1.jpg" alt="Voltage Logger Breadboard Top View" width="400"/>
+  <br/>
+  <em>Voltage Logger breadboard – top view</em>
+</p>
+
+### 📊 Sample Data
+The system logs voltage readings to an SD card in CSV format.  
+[Download sample CSV](assets/voltlog.csv?raw=true)
+
 ## Installation
 - Clone this repository:  
   git clone https://github.com/GoldmanLiyam/voltage-logger.git
@@ -44,3 +62,4 @@ Voltage logger project using ESP32, FreeRTOS, I2C, SPI, SD CARD, INA219 and more
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 Created by Liyam Goldman
+
